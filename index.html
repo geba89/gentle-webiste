@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gentle - Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .hero {
+            text-align: center;
+            background: white;
+            border-radius: 20px;
+            padding: 50px 40px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .logo {
+            font-size: 64px;
+            margin-bottom: 15px;
+        }
+        h1 {
+            color: #8B5CF6;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .tagline {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+        .app-store-badge {
+            height: 50px;
+            margin-top: 10px;
+        }
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        .card h2 {
+            color: #8B5CF6;
+            font-size: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .card h2 span {
+            font-size: 24px;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #F0F0F0;
+        }
+        .faq-item:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+        .faq-item h3 {
+            color: #333;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+        .faq-item p {
+            color: #666;
+            font-size: 15px;
+        }
+        .contact-card {
+            text-align: center;
+            background: linear-gradient(135deg, #8B5CF6 0%, #A78BFA 100%);
+            color: white;
+        }
+        .contact-card h2 {
+            color: white;
+            justify-content: center;
+        }
+        .contact-card p {
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+        .contact-card a {
+            display: inline-block;
+            background: white;
+            color: #8B5CF6;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+        .contact-card a:hover {
+            transform: scale(1.05);
+        }
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .links a {
+            color: #8B5CF6;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+        .feature {
+            background: #F9FAFB;
+            padding: 15px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        .feature span {
+            font-size: 28px;
+            display: block;
+            margin-bottom: 8px;
+        }
+        .feature p {
+            font-size: 14px;
+            color: #666;
+            margin: 0;
+        }
+        @media (max-width: 500px) {
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <div class="logo">🌱</div>
+            <h1>Gentle</h1>
+            <p class="tagline">The habit tracker that respects you</p>
+            <div class="features">
+                <div class="feature">
+                    <span>🚫</span>
+                    <p>No streak punishment</p>
+                </div>
+                <div class="feature">
+                    <span>🔔</span>
+                    <p>One daily reminder</p>
+                </div>
+                <div class="feature">
+                    <span>📊</span>
+                    <p>Monthly insights</p>
+                </div>
+                <div class="feature">
+                    <span>🔒</span>
+                    <p>100% private</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span>❓</span> Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <h3>How do I add a new habit?</h3>
+                <p>Tap the + button in the top right corner of the home screen. Give your habit a name, choose an icon, and you're ready to go!</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>What happens if I miss a day?</h3>
+                <p>Nothing bad! Gentle doesn't punish you for missing days. Your progress is cumulative, not consecutive. Missing a day doesn't reset anything - life happens, and that's okay.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do I check in for the day?</h3>
+                <p>Tap the "Daily Check-in" button at the bottom of the home screen, or simply tap on any habit to toggle it complete for today.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Can I edit past days?</h3>
+                <p>Yes! In the Daily Check-in screen, tap the date at the top to select a different day. You can mark habits complete or incomplete for any past date.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do daily notifications work?</h3>
+                <p>Gentle sends one gentle reminder per day at your chosen time (default 9 PM). You can customize the time or turn notifications off entirely in Settings. We never nag or send follow-ups.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>What is the Garden?</h3>
+                <p>The Garden shows your habits as growing plants. The more you complete a habit, the more it grows - from a seed to a seedling to a flower to a tree. It's a gentle visual of your progress over time.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do monthly reports work?</h3>
+                <p>Go to Settings and tap "View Monthly Report" to see insights about your habits. You can share the report as an image or save it to your photos.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Is my data backed up?</h3>
+                <p>If you have iCloud enabled on your device, your Gentle data automatically syncs to your personal iCloud account. This also lets you access your habits on other Apple devices signed into the same account.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do I delete a habit?</h3>
+                <p>Go to Settings → Manage Habits. Swipe left on any habit to archive it. Archived habits keep their history but won't appear in your daily check-ins. You can restore or permanently delete archived habits from Settings → Archived Habits.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Can I change the app's theme?</h3>
+                <p>Yes! Go to Settings and choose from 5 beautiful color themes: Lavender Dream, Ocean Breeze, Sunset Glow, Forest Calm, or Minimalist.</p>
+            </div>
+        </div>
+
+        <div class="card contact-card">
+            <h2><span>💬</span> Need More Help?</h2>
+            <p>We're here to help! Send us an email and we'll get back to you as soon as possible.</p>
+            <a href="mailto:support@gentleapp.com">Contact Support</a>
+        </div>
+
+        <div class="links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Use</a>
+        </div>
+    </div>
+</body>
+</html>
